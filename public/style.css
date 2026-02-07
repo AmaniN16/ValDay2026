@@ -20,8 +20,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding-left: 12%;
-    padding-top: 15%;
-    padding-bottom: 2%;
+    padding-top: 19%;
+    padding-bottom: 5%;
     max-width: 75%;
     position: relative;
     text-align: center;
@@ -68,6 +68,7 @@ button {
     position: relative;
     background: linear-gradient(to right, #FFC7DC, #FF82AC);
     border: thick double rgb(218, 17, 17);
+    border-radius: 15px; 
     display: inline-block;
     font-size: 20px;
     color:#53040f;
