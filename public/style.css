@@ -1,5 +1,14 @@
-body {
+#homepage {
     background-image: url('vintage-214-valentine-s-day-love-letter-letter-paper-poster_2856682.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100vh;
+    border: 2px rgb(255, 171, 185);
+    justify-content: center;
+}
+
+#yespage {
+    background-image: url('video-from-rawpixel-id-20478284-gif.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100vh;
@@ -116,11 +125,13 @@ button:hover{
     font-size: 20px;
     display: flex;
     color:rgb(218, 17, 17);
-    justify-content: center;'
+    justify-content: center;
+    border: rgb(255, 104, 134);
+    border-style: outset;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: wavy;
 }
 
 #linkwrapper {
