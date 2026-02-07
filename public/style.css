@@ -10,7 +10,7 @@ body {
 div {
     display: flexbox;
     justify-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     position: sticky;
     padding: 10px;
 }
@@ -19,8 +19,9 @@ h1 {
     color:rgb(252, 160, 124);
     display: flex;
     justify-content: center;
-    margin: 50px;
-    margin-top: 100px;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 2%;
     max-width: 75%;
     position: relative;
     text-align: center;
@@ -46,16 +47,17 @@ h1 {
 }
 
 #buttonwrapper {
-    position: relative;
+    position: absolute;
     align-items: center;
-    display: flex;
+    display: grid;
+    vertical-align: middle;
     flex: 1 100%;
     flex-basis: 40%;
     flex-direction: column;
     flex-flow: column wrap;
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
-    margin: 0;
+    margin-left: 30%;
 }
 
 a:hover {
@@ -84,8 +86,8 @@ button:hover{
 #why-say-no {
     align-self: center;
     margin-left: 25%;
-    margin-top: 75%;
-    height: 120px;
+    margin-top: 10%;
+    height: 200px;
     width: auto;
     position: absolute;
     justify-content: center;
