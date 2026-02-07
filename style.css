@@ -52,7 +52,6 @@ div {
     flex-direction: column;
     flex-flow: column wrap;
     margin: 0;
-    width: 100%;
 }
 
 a:hover {
