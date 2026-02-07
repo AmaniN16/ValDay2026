@@ -31,6 +31,7 @@ div {
 }
 
 #titlewrapper {
+    align-items: center;
     background-image:  url('b22007530bf81daccc2f43ba9b0516e2.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +45,7 @@ div {
 }
 
 #buttonwrapper {
-    align-self: center;
+    align-items: center;
     display: flex;
     flex: 1 100%;
     flex-basis: 40%;
@@ -54,29 +55,51 @@ div {
     width: 100%;
 }
 
-.button-container {
+a:hover {
+    color: rgba(0,0,0,0);
+}
+
+button {
+    position: relative;
     background: linear-gradient(to right, #FFC7DC, #FF82AC);
     border: thick double rgb(218, 17, 17);
+    display: inline-block;
     font-size: 20px;
     height: 100px;
     justify-content: center;
     padding-left: 50px;
     padding-right: 85px;
-    position: relative;
     width: 100px;
 }
 
-.button-container:before {
-    background: linear-gradient(to right, #FFC7DC, #FF82AC);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: all 0.8s;
-    opacity: 0.2;
+button:hover{
+    display: block;
+    background: rgba(247, 183, 204, 0.685);
 }
 
-.button-container:hover:before {
-    opacity: 1;
+#why-say-no {
+    align-self: center;
+    margin-left: 25%;
+    margin-top: 75%;
+    height: 120px;
+    width: auto;
+    position: absolute;
+    justify-content: center;
+    z-index: 10;
+}
+
+#click-yes {
+    margin-left: 25%;
+    margin-top: 15%;
+    width: auto;
+    position: absolute;
+    justify-content: center;
+    z-index: 10;
+}
+
+#imagewrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
