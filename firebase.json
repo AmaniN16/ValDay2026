@@ -11,6 +11,14 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "headers": [ {
+      "source": "**/*.@(html|css|png|js|yes_folder)",
+      "headers": [ {
+        "key": "Cache-Control",
+        "value": "max-age=15"
+      }
     ]
+    }]
   }
 }

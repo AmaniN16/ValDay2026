@@ -5,7 +5,7 @@ const width = body.clientWidth;
 const why_no = document.getElementById('why-say-no');
 const yes_arrow = document.getElementById('click-yes');
 
-yes_arrow.style.display = 'none';
+yes_arrow.style.display = 'none'; 
 why_no.style.display = 'none';
 let clickCount = 0;
 
