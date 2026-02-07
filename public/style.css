@@ -116,7 +116,7 @@ button:hover{
     font-size: 20px;
     display: flex;
     color:rgb(218, 17, 17);
-    justify-content: center;
+    justify-content: center;'
 }
 
 a {
@@ -125,4 +125,12 @@ a {
 
 #linkwrapper {
     background-color: #FFC7DC;
+    text-align: center;
+    border: thick double rgb(247, 132, 148);
+    border-radius: 15px; 
+    border-style: groove;
+}
+
+#ps {
+    color: rgb(128, 15, 37);
 }
