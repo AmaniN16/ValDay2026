@@ -19,8 +19,8 @@ h1 {
     color:rgb(252, 160, 124);
     display: flex;
     justify-content: center;
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-left: 12%;
+    padding-top: 15%;
     padding-bottom: 2%;
     max-width: 75%;
     position: relative;
@@ -57,7 +57,7 @@ h1 {
     flex-flow: column wrap;
     max-width: 50%;
     max-height: 100%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 a:hover {
@@ -76,7 +76,9 @@ button {
     padding-left: 50px;
     padding-right: 85px;
     width: 100px;
+    transition: top 0.5s ease-out, left 0.5s ease-out;
 }
+
 
 button:hover{
     display: block;
@@ -85,8 +87,8 @@ button:hover{
 
 #why-say-no {
     align-self: center;
-    margin-left: 25%;
-    margin-top: 10%;
+    margin-left: 15%;
+    margin-top: 50%;
     height: 200px;
     width: auto;
     position: absolute;
@@ -107,4 +109,19 @@ button:hover{
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+#bg-music {
+    font-size: 20px;
+    display: flex;
+    color:rgb(218, 17, 17);
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#linkwrapper {
+    background-color: #FFC7DC;
 }

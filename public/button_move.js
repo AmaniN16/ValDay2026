@@ -9,9 +9,9 @@ yes_arrow.style.display = 'none';
 why_no.style.display = 'none';
 let clickCount = 0;
 
-body.addEventListener('click', (event) => {
+function moveRandomly(){
     clickCount++;
-    console.log(`${clickCount} try`);
+    
     if (clickCount === 3) {
         if (why_no.style.display === 'none') {
             why_no.style.display = 'inline-flex';
@@ -27,4 +27,4 @@ body.addEventListener('click', (event) => {
 
     button.style.top = `${newTop}px`;
     button.style.left = `${newLeft}px`;
-})
+}
