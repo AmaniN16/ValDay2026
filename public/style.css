@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100vh;
+    background-color:rgb(255, 212, 225) ;
     border: 2px rgb(255, 171, 185);
     justify-content: center;
 }
@@ -11,7 +12,7 @@
     background-image: url('video-from-rawpixel-id-20478284-gif.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     border: 2px rgb(255, 171, 185);
     justify-content: center;
 }
@@ -144,4 +145,64 @@ a {
 
 #ps {
     color: rgb(128, 15, 37);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#location-marker {
+    height: 100px;
+    margin-top: 5%;
+}
+
+#locationwrapper {
+    background-color: rgba(204, 241, 255, 0.829);
+    margin-bottom: 10%;
+    length: 100%;
+    width: auto;
+    display: flex;
+}
+
+#details-wrapper {
+    position: relative;
+    display: grid;
+    color: rgb(201, 37, 91);
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow:2px 2px 5px #470d14a4; 
+    padding-top: -10%;
+    padding-bottom: -20%;
+    text-align: center;
+}
+
+#details-header {
+    text-align: center;
+    color:aliceblue;
+    font-size: 25px;
+    text-shadow:2px 2px 5px #470d14a4;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color:rgb(224, 212, 188)
+}
+
+#details-header-wrapper {
+    background-color:rgba(204, 241, 255, 0.829);
+    margin-top: 20%;
+    margin-bottom: -10px;
+    height: 10px;
+    z-index: 3;
+}
+
+#thanks {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color:#ffffff;
+}
+
+#thanks-bg {
+    background-color: #7a0b19;
+    width: 50%;
+    height: auto;
 }
